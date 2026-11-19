@@ -1,0 +1,19 @@
+body { font-family: system-ui, sans-serif; margin: 0; background: #f6f7f9; color: #1d2433; }
+nav { background: #1f3a5f; padding: 12px 24px; display: flex; gap: 20px; align-items: center; }
+nav .marca { color: #fff; font-weight: 700; margin-right: 16px; }
+nav a { color: #d6e2f3; text-decoration: none; }
+nav a:hover { color: #fff; text-decoration: underline; }
+main { max-width: 900px; margin: 24px auto; padding: 0 16px; }
+h2 { margin-top: 0; }
+table { width: 100%; border-collapse: collapse; background: #fff; }
+th, td { text-align: left; padding: 10px; border-bottom: 1px solid #e2e6ec; }
+th { background: #eef1f6; }
+.btn { display: inline-block; padding: 6px 12px; border: 0; border-radius: 4px; background: #1f3a5f; color: #fff; cursor: pointer; text-decoration: none; font-size: 14px; }
+.btn.perigo { background: #b3382c; }
+.btn.neutro { background: #6b7585; }
+.acoes { display: flex; gap: 6px; }
+form { background: #fff; padding: 20px; border-radius: 6px; display: grid; gap: 12px; }
+label { display: grid; gap: 4px; font-weight: 600; }
+input, select { padding: 8px; border: 1px solid #c3cad6; border-radius: 4px; font: inherit; }
+.erro { background: #fbe4e1; color: #8a2a20; padding: 10px; border-radius: 4px; margin-bottom: 12px; }
+.vazio { color: #6b7585; }
